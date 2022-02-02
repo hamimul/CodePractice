@@ -7,13 +7,13 @@ def spiralTraverse(array):
 	# initial botttom border 
 	perimeterTraverse(array,0,len(array)-1,0,len(array[0])-1,result)
 	return result
-	#     >>>>>>>>>>>>>
-	#	  ^			  v
-	#	  ^			  v
-	#	  ^			  v
-	#	  ^			  v
-	#	  ^			  v
-	#     <<<<<<<<<<< v
+	# >>>>>>>>>>>>>
+	# ^	      v
+	# ^	      v
+	# ^           v
+	# ^	      v
+	# ^    	      v
+	# <<<<<<<<<<< v
 	#	first we iterate the perimeter of the array
 	#	than we will update the border iterativeley 
 	#	we can do with recurrsion also if we define
